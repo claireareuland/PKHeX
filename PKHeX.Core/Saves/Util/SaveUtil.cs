@@ -108,6 +108,7 @@ public static class SaveUtil
     // ReSharper disable once CollectionNeverUpdated.Global
     public static readonly List<ISaveReader> CustomSaveReaders =
     [
+        new EmeraldImperiumReader(),
         new ZipReader(),
     ];
 
